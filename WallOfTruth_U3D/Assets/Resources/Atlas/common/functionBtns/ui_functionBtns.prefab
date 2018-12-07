@@ -1,0 +1,293 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 400000}
+  - component: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: ui_functionBtns
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: d6f0853d88eaf83439a6afd145b1f084, type: 2}
+  mSprites:
+  - name: candan_icon
+    x: 377
+    y: 396
+    width: 128
+    height: 126
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 9
+    paddingRight: 9
+    paddingTop: 7
+    paddingBottom: 7
+  - name: chuzhan_icon
+    x: 1
+    y: 1
+    width: 296
+    height: 280
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ciquzhiwei_icon
+    x: 200
+    y: 893
+    width: 128
+    height: 118
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 15
+    paddingRight: 17
+    paddingTop: 10
+    paddingBottom: 12
+  - name: gonggao_icon
+    x: 333
+    y: 770
+    width: 120
+    height: 122
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 13
+    paddingRight: 13
+    paddingTop: 8
+    paddingBottom: 10
+  - name: haoyou_icon
+    x: 234
+    y: 282
+    width: 136
+    height: 132
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 6
+    paddingTop: 3
+    paddingBottom: 5
+  - name: huodong_icon
+    x: 1
+    y: 282
+    width: 232
+    height: 198
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 14
+    paddingTop: 0
+    paddingBottom: 20
+  - name: jinjichang_icon
+    x: 1
+    y: 660
+    width: 188
+    height: 184
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 29
+    paddingRight: 29
+    paddingTop: 9
+    paddingBottom: 25
+  - name: kazu_icon
+    x: 1
+    y: 481
+    width: 204
+    height: 178
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 20
+    paddingRight: 22
+    paddingTop: 23
+    paddingBottom: 17
+  - name: mingzi_di
+    x: 298
+    y: 208
+    width: 186
+    height: 58
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 3
+    paddingTop: 0
+    paddingBottom: 2
+  - name: paiming_icon
+    x: 1
+    y: 845
+    width: 198
+    height: 134
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 6
+    paddingBottom: 0
+  - name: qianghua_icon
+    x: 298
+    y: 1
+    width: 200
+    height: 206
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 19
+    paddingRight: 27
+    paddingTop: 9
+    paddingBottom: 3
+  - name: rongyao_icon
+    x: 371
+    y: 267
+    width: 126
+    height: 128
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 10
+    paddingRight: 10
+    paddingTop: 6
+    paddingBottom: 6
+  - name: shangcheng_icon
+    x: 234
+    y: 415
+    width: 142
+    height: 118
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 2
+    paddingRight: 2
+    paddingTop: 10
+    paddingBottom: 12
+  - name: shenmiao_icon
+    x: 200
+    y: 770
+    width: 132
+    height: 122
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 7
+    paddingRight: 7
+    paddingTop: 7
+    paddingBottom: 11
+  - name: shuaxin_icon
+    x: 329
+    y: 893
+    width: 120
+    height: 114
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 13
+    paddingRight: 13
+    paddingTop: 5
+    paddingBottom: 21
+  - name: shuoming_icon
+    x: 206
+    y: 657
+    width: 146
+    height: 112
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 9
+    paddingBottom: 19
+  - name: yijianbaowei_icon
+    x: 206
+    y: 534
+    width: 154
+    height: 122
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 15
+    paddingBottom: 9
+  - name: zhiweijinjie_icon
+    x: 361
+    y: 534
+    width: 116
+    height: 116
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 21
+    paddingRight: 23
+    paddingTop: 11
+    paddingBottom: 13
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+  mCoordinates: 0
+  sprites: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
